@@ -1,0 +1,88 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default" namespace="/">
+        <action name="">
+            <result>home.jsp</result>
+        </action>       
+        <action name="searchBook" class="edu.fud.struts2.SearchBookAction">
+            <result name="success">searchBook.jsp</result>
+            <result name="fail">NoSearchResult.jsp</result>
+        </action>
+        <action name="getAllBook" class="edu.fud.struts2.GetBookAction">
+            <result name="success">Book.jsp</result>
+        </action>
+        <action name="viewBook" class="edu.fud.struts2.ViewBookAction">
+            <result name="success">BookInfo.jsp</result>
+            <result name="fail">NoSearchResult.jsp</result>
+        </action>
+        <action name="readBook" class="edu.fud.struts2.ReadBookAction">
+            <result name="success">ReadBook.jsp</result>
+            <result name="fail">NoSearchResult.jsp</result>
+        </action>
+        <action name="listCategory" class="edu.fud.struts2.ListCategoryAction">
+            <result name="success">listCategory.jsp</result>
+        </action>
+        <action name="searchByCategory" class="edu.fud.struts2.SearchByCategoryAction">
+            <result name="success">searchBook.jsp</result>
+            <result name="fail">NoSearchResult.jsp</result>
+        </action>
+        <action name="manageBookAction" class="edu.fud.struts2.GetBookAction">
+            <result name="success">viewAllBook.jsp</result>
+        </action>
+        <action name="manageUserAction" class="edu.fud.struts2.getUserAction">
+            <result name="success">viewAllUser.jsp</result>
+        </action>
+        <action name="update" class="edu.fud.struts2.updateBookAction">
+            <result name="success">updateBook.jsp</result>
+            <result name="fail">fail.jsp</result>
+        </action>      
+        <action name="updateBookForm" class="edu.fud.struts2.updateBookAction" method="doUpdate">
+            <result name="success">successfullBookPage.jsp</result>
+            <result name="fail">failUpdateBook.jsp</result>
+        </action>
+        <action name="delete" class="edu.fud.struts2.deleteBookAction">
+            <result name="success">viewAllBook.jsp</result>
+            <result name="fail">failDeleteBook.jsp</result>
+        </action>
+        <action name="deleted" class="edu.fud.struts2.deleteUserAction">
+            <result name="success">viewAllUser.jsp</result>
+            <result name="fail">failDeleteUser.jsp</result>
+        </action>    
+        <action name="updated" class="edu.fud.struts2.updateUserAction">
+            <result name="success">updateUser.jsp</result>
+            <result name="fail">fail.jsp</result>
+        </action>      
+        <action name="updateUserForm" class="edu.fud.struts2.updateUserAction" method="doUpdate">
+            <result name="success">successfullUserPage.jsp</result>
+            <result name="fail">failUpdateUser.jsp</result>
+        </action>
+        <action name="addNewBook" class="edu.fud.struts2.AddNewBookAction">
+            <result name="success" >successAddBook.jsp</result>
+            <result name="input">AddNewBook.jsp</result>
+            <result name="fail">failAddBook.jsp</result>
+        </action>
+        <action name="login" class="edu.fud.struts2.LoginAction">
+            <result name="success">home.jsp</result>
+            <result name="fail">failLogin.jsp</result>
+        </action>
+        <action name="logOut" class="edu.fud.struts2.LoginAction" method="logOut">
+            <result name="success">home.jsp</result>
+        </action>
+        <action name="SignUp" class="edu.fud.struts2.SignUpAction">
+            <result name="success">successfullSignUp.jsp</result>
+            <result name="fail">failSignUp.jsp</result>
+        </action>
+        <action name="editUser" class="edu.fud.struts2.EditUserAction">
+            <result name="success">EditUser.jsp</result>
+            <result name="fail">failUpdateUser.jsp</result>
+        </action>
+           <action name="saveEditUser" class="edu.fud.struts2.EditUserAction" method="update">
+            <result name="success">SuccessfulEdit.jsp</result>
+            <result name="fail">FailEdit.jsp</result>
+        </action>
+    </package>
+</struts>

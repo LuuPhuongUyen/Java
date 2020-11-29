@@ -1,0 +1,16 @@
+=========userDAO=============
+-addNewUser
+-deleteUser
+-updateUser
+-getUser
+-getLogsByUser // library
+-viewLogByUser
+
+========bookDao============
+-addNewBook
+-deleteBook
+-updateBook
+-getBook
+-searchByCategory
+-searchByTitle
+-searchByAuthor
