@@ -93,7 +93,7 @@ public class LibraryGUI extends javax.swing.JFrame {
         jSplitPane1.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\PC\\Downloads\\LogoFPT.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/LogoFPT.png"))); // NOI18N
         jSplitPane1.setTopComponent(jLabel1);
 
         system.setText("System");

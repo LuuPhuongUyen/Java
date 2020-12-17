@@ -171,7 +171,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\PC\Downloads\LogoFPT.png"/>
+              <Image iconType="3" name="/View/LogoFPT.png"/>
             </Property>
           </Properties>
           <Constraints>
