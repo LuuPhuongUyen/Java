@@ -1,0 +1,55 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+.footer{
+    padding-top: 10%; 
+}
+body {
+    text-align: center;
+    padding: 40px 0;
+}
+h1 {
+    
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+p {
+    color: #404F5E;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-size:20px;
+}
+i {
+    color: #9ABC66;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left:-15px;
+}
+.card {
+    padding: 7%;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+/*    margin: 0 auto;*/
+}
+.header{
+  margin-bottom: 1%;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: inside;
+    margin: 0 auto;
+   
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+

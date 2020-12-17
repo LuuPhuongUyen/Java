@@ -1,0 +1,18 @@
+.imgBook{   
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.viewBook{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin: 8px;
+}
+.viewBook>p{
+    font-size: 14px;
+} 
+div.viewBook:hover{
+    box-shadow: 0 2px 3px #C8D0D8
+}

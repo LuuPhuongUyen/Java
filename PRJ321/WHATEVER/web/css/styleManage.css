@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+    table-layout: auto;
+
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+    font-size: 80%;
+
+}
+td{
+    max-width: 20%;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color:#4CAF50;
+    color: white;
+}
+
+.footer{
+    padding-top: 10%; 
+}
+.manageTable{
+    padding-top: 2%;
+}
+.addButton{
+    margin: 0 auto;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.addButton:hover {
+    background-color: #77DD77;
+    color: white;
+}

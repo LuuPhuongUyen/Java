@@ -1,0 +1,18 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->   
+    <package name="default" extends="struts-default">
+     <action name="add" class="controller.AddContactActionSupport">
+            <result name="success">ListContacts.jsp</result>
+            <result name="fail">Fail.jsp</result>
+            <result name="error">AddContact.jsp</result>
+        </action>
+
+        <action name="list" class="controller.ListContactsActionSupport">
+            <result name="success">ListContacts.jsp</result>
+        </action>
+    </package>
+</struts>

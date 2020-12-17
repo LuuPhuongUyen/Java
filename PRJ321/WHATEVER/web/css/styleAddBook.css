@@ -1,0 +1,36 @@
+.addForm{
+    background: rgba(0, 0, 0, 0.03) ;
+    /*    width: 50%;
+        margin: 0 auto;*/
+}
+.btnAddBook{
+    margin: 15px 200px;
+    padding: 8px 28px;
+    background: #0e3970;
+    color: white;
+    border: 1px solid white;
+    font-size: 17px;
+    border-radius: 4px;
+
+}
+.btnAddBook:hover {
+    border: 1px solid #FF5056;
+    background:#FF5056;
+}
+.input{
+    padding: 4px 200px 4px 3px;
+    margin: 6px 0px 6px 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-radius: 4px;
+}
+label{
+    color:black;
+    margin-right: 15px;
+    float: left;
+    margin: 8px 20px 6px 0px;
+}
+h2{
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+.footer{
+    padding-top: 10%; 
+}
+
+input[type=text], select {
+    width: 80%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+label {
+    padding: 9px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 70%;
+}
+
+.col-25 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+input[type=url]{
+    width: 80%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+}
+input[type=email]{
+    width: 80%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+
