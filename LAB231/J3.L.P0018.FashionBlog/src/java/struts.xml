@@ -1,0 +1,27 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name="">
+            <result>Home.jsp</result>
+        </action>
+         <action name="getInfoPage" class="Action.getInfoAction">
+            <result name="success">aboutus.jsp</result>
+        </action>
+        <action name="getHomePage" class="Action.getHomePage">
+            <result name="success">Home.jsp</result>
+        </action>
+        <action name="getDetail" class="Action.getDetailAction">
+            <result name="success">detailsPost.jsp</result>
+        </action>
+        <action name="getOverview" class="Action.getOverviewAction">
+            <result name="success">overview.jsp</result>
+        </action>
+        <action name="getMessage" class="Action.getMessageAction">
+            <result name="success">findus.jsp</result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,110 @@
+
+/*====================== send message*/ 
+
+.info p{
+    font-size: 20px;
+    color: black;
+}
+
+.send{
+    /*margin-left: 2%;*/
+}
+
+.row1 input[type='text']{
+    float: left;
+    width: 48%;
+    padding: 4px 6px;
+    line-height: 22px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.row1 input[type='email']{
+    float: right;
+    width: 45%;
+    padding: 4px 6px;
+    line-height: 22px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.row2{
+    clear: both;
+    width: 100%;
+}
+
+.row2 textarea{
+    width: 97.8%;
+    height: 150px;
+    margin-top: 10px;
+    font-family: inherit;
+    padding: 4px 6px;
+    line-height: 22px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.send input[type='submit']{
+    float: right;
+    padding: 4px 6px;
+    margin-bottom: 0;
+    color: #fff;
+    background-color: #cd0d18;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.alert-error{
+    font-size: 16px;
+    background-color: #f2dede;
+    color: #b94a48;
+    padding: 8px 35px 8px 14px;
+    border-radius: 6px;
+    border: 1px solid #EED3D7;
+    line-height: 22px;
+}
+
+.alert-success{
+    font-size: 16px;
+    background-color: #DFF0D8;
+    color: #468847;
+    padding: 8px 35px 8px 14px;
+    border-radius: 6px;
+    border: 1px solid #d6e9c6;
+    line-height: 22px;
+}
+
+.close{
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #000;
+    opacity: .2;
+}
+
+.show{
+    display: block;
+}
+
+.closeDialog{
+    display: none;
+}
+
+.disableInput{
+    cursor: not-allowed;
+    background-color: #eee;
+}
+
+.disableButton{
+    opacity: 0.6;
+}
+
+/*=======*/

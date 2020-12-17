@@ -1,0 +1,27 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name="">
+            <result>WeddingBlog.jsp</result>
+        </action>
+        <action name="getAllBlog" class="Controller.WeddingBlogAction">
+            <result name="success">WeddingBlog.jsp</result>
+        </action>
+        <action name="getPartyAddress" class="Controller.PartyAddressAction">
+            <result name="success">PartyAddress.jsp</result>
+        </action>
+        <action name="getPhotoAlbum" class="Controller.PhotoAlbumAction">
+            <result name="success">PhotoAlbum.jsp</result>
+        </action>
+        <action name="getWishlist" class="Controller.WishListAction">
+            <result name="success">Wishlist.jsp</result>
+        </action>
+<!--        <action name="getGuestBook" class="Controller.GuestBookAction">
+            <result name="success">Guestbook.jsp</result>
+        </action>-->
+    </package>
+</struts>
